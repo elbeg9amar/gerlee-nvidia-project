@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 15px;
+  font-family: "Signika Negative", sans-serif;
+}
+.logo img {
+  height: 50px;
+  width: 130px;
+  padding-top: 0;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+.menu1 {
+  width: 15%;
+}
+.menu2 {
+  width: 18%;
+  text-transform: uppercase;
+  font-size: smaller;
+  padding-right: 15%;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+}
+ion-icon {
+  font-size: 25px;
+}
+body {
+  background-color: rgb(219, 219, 219);
+}
+.slide-images {
+  background-color: black;
+}
+.slide-images img {
+  width: 40%;
+}
