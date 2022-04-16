@@ -13,18 +13,26 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header>
       <div class="menu">
-        <span class="logo"
-          ><img
-            src="https://pluspng.com/img-png/nvidia-png-do-al-olarak-nvidia-n-n-bir-guvenlik-ac-n-cakt-rmadan-kapatmaya-cal-t-ifade-ediliyordu-ve-irketin-borsadaki-hisseleri-de-h-zla-du-mu-tu-330.png"
-            alt=""
-        /></span>
         <div class="menu1">
           <nav>
             <ul>
+              <span class="logo"
+                ><img
+                  src="https://pluspng.com/img-png/nvidia-png-do-al-olarak-nvidia-n-n-bir-guvenlik-ac-n-cakt-rmadan-kapatmaya-cal-t-ifade-ediliyordu-ve-irketin-borsadaki-hisseleri-de-h-zla-du-mu-tu-330.png"
+                  alt=""
+              /></span>
               <li>Products</li>
               <li>Solutions</li>
               <li>Industries</li>
@@ -47,68 +55,381 @@
       </div>
     </header>
     <body>
-      <div class="slide-img">
-        <div class="slider">
-          <img src="./nvidia1.PNG" class="i1" alt="img1" />
-          <div class="text">
-            <h1>announcing nvidia omniverse cloud</h1>
-            <p>
-              New suite of cloud services lets designers and creators on any
-              device "one-click to collaborate" in Omniverse
-            </p>
+      <div
+        class="slide-img-container"
+        style="background-image: url(/nvidia1.PNG); width: 100%"
+      >
+        <div class="slides">
+          <input type="radio" name="common" id="dot1" checked />
+          <input type="radio" name="common" id="dot2" />
+          <input type="radio" name="common" id="dot3" />
+          <input type="radio" name="common" id="dot4" />
+          <input type="radio" name="common" id="dot5" />
+          <div class="image first">
+            <img src="./nvidia1.PNG" alt="img1" />
+
+            <div class="text">
+              <h1>announcing nvidia omniverse cloud</h1>
+              <p>
+                New suite of cloud services lets designers and creators on any
+                device "one-click to collaborate" in Omniverse
+              </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img src="./nvidia2.PNG" alt="img2" />
+
+            <div class="text">
+              <h1>announcing the nvidia hopper gpu architecture</h1>
+              <p>
+                Unprecedented performance, scalability, and security for every
+                data center.
+              </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img src="./nvidia3.PNG" alt="img3" />
+
+            <div class="text">
+              <h1>EXPERIENCE NVIDIA SOLUTIONS INSTANTLY—FROM ANYWHERE</h1>
+              <p>
+                From 3D design collaboration with NVIDIA Omniverse Enterprise to
+                early access to VMware's Project Monterey, fast-track your
+                enterprise projects with free curated labs. TRY NVIDIA LAUNCHPAD
+              </p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="./nvidia4.PNG" alt="img4" />
+
+            <div class="text">
+              <h1>ANNOUNCING NVIDIA GRACE CPU</h1>
+              <p>
+                Powering 2X the performance and energy efficiency of server
+                chips.
+              </p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="./nvidia5.PNG" alt="img5" />
+
+            <div class="text">
+              <h1>GET STARTED WITH SPEECH AI</h1>
+              <p>Try NVIDIA Riva for free on NVIDIA LaunchPad.</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label class="dots" for="dot1"></label>
+          <label class="dots" for="dot2"></label>
+          <label class="dots" for="dot3"></label>
+          <label class="dots" for="dot4"></label>
+          <label class="dots" for="dot5"></label>
+        </div>
+      </div>
+      <div class="first"><h1>shop</h1></div>
+      <div class="card-container">
+        <div class="cards">
+          <div class="card">
+            <div class="card-img">
+              <img src="./nvidia-laptop.PNG" alt="laptop" />
+            </div>
+            <div class="details">
+              <h3>GeForce RTX 30 Series Laptops</h3>
+              <p>
+                Powering the world's fastest laptops for gamers and creators.
+                With new AI-powered Max-Q technologies that optimize laptops to
+                deliver high performance in thin form factors.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img src="./nvidia-rtx-30.jpg" alt="RTX30" />
+            </div>
+            <div class="details">
+              <h3>The Ultimate Play</h3>
+              <p>GeForce RTX" 30 Series.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img src="./gfn.PNG" alt="gfn" />
+            </div>
+            <div class="details">
+              <h3>GFN Thursday</h3>
+              <p>See what's streaming this week on GeForce NOW.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img src="./tms.PNG" alt="thisMonthOnStudio" />
+            </div>
+            <div class="details">
+              <h3>This Month on Studio</h3>
+              <p>
+                Get the latest content creation news for aspiring artists,
+                freelancers and creative pros.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h1>gaming</h1>
+        <div class="card-container-2">
+          <div class="cards">
+            <div class="card-2">
+              <div class="card-img">
+                <img src="./evil dead.PNG" />
+              </div>
+              <div class="details">
+                <h3>RTX. It's On</h3>
+                <p>Coming to your Favourite Games.</p>
+              </div>
+            </div>
+
+            <div class="card-2">
+              <div class="card-img">
+                <img src="./dying light.PNG" />
+              </div>
+              <div class="details">
+                <h3>RTX. It's On</h3>
+                <p>Ray Tracing And NVIDIA DLSS Available Now.</p>
+              </div>
+            </div>
+
+            <div class="card-2">
+              <div class="card-img">
+                <img src="./valorant.PNG" />
+              </div>
+              <div class="details">
+                <h3>Frames Win Games</h3>
+                <p>Lowest system latency, highest FPS.</p>
+              </div>
+            </div>
+
+            <div class="card-2">
+              <div class="card-img">
+                <img src="./robot.PNG" />
+              </div>
+              <div class="details">
+                <h3>NVIDIA DLSS</h3>
+                <p>Max FPS. Max Quality. Powered By Ai.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>latest news</h1>
+        <div class="card-container-2">
+          <div class="cards">
+            <div class="card-3">
+              <div class="card-img">
+                <img src="./earth.PNG" />
+              </div>
+              <div class="details">
+                <h3>Digital Twin Platform for Scientific Computing</h3>
+                <p>
+                  Using NVIDIA Modulus with physics-informed Ai and NVIDIA
+                  Omniverse, science and engineering can advance faster than
+                  ever before.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-3">
+              <div class="card-img">
+                <img src="./block.PNG" />
+              </div>
+              <div class="details">
+                <h3>
+                  Introducing NVIDIA DGX H100 the World's Most Advanced
+                  Enterprise AI Infrastructure
+                </h3>
+                <p>
+                  Unveiled at GTC 2022, the fourth-generation NVIDIA DGX system
+                  is the world's first AI platform to be built with new NVIDIA
+                  H100 Tensor Core GPUs.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-3">
+              <div class="card-img">
+                <img src="./spectrum.PNG" />
+              </div>
+              <div class="details">
+                <h3>
+                  The NVIDIA Spectrum-4 Platform Turbocharges Enterprise AI and
+                  Cloud Data Centers
+                </h3>
+                <p>
+                  The next generation of the NVIDIA Spectrum platform leverages
+                  Spectrum-4 Ethernet fabrics to deliver the highest performance
+                  and lowest latency, while reducing network footprint.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-3">
+              <div class="card-img">
+                <img src="./gcloud.PNG" />
+              </div>
+              <div class="details">
+                <h3>NVIDIA and Google Help Enterprises Build AI Faster</h3>
+                <p>
+                  Today NVIDIA announced the release of NGC's new One Click
+                  Deploy feature simplyfying the complex steps of running a
+                  Jupyter Notebook on Google Cloud Vertex AI to a single click.
+                  This collaboration with Google Cloud is speeding the path to
+                  building state-of-the-art AI.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="slider">
-          <img
-            src="./nvidia2.PNG"
-            class="i2"
-            alt="img2"
-          />
-          <div class="text">
-            <h1>announcing the nvidia hopper gpu architecture</h1>
-            <p>
-              Unprecedented performance, scalability, and security for every
-              data center.
-            </p>
-          </div>
-        </div>
+        <div class="card-container-2">
+          <div class="cards">
+            <div class="card">
+              <div class="card-img">
+                <img src="./hybrid quantum.PNG" />
+              </div>
+              <div class="details">
+                <h3>Onramp to Hybrid Quantum Computing</h3>
+                <p>
+                  NVIDIA cuQuantum is now generally available, along with an
+                  expanding quantum computing ecosystem and collaborations for
+                  building romorrow's most powerful system.
+                </p>
+              </div>
+            </div>
 
-        <div class="slider">
-          <img src="./nvidia3.PNG" class="i3" alt="img3" />
-          <div class="text">
-            <h1>EXPERIENCE NVIDIA SOLUTIONS INSTANTLY—FROM ANYWHERE</h1>
-            <p>
-              From 3D design collaboration with NVIDIA Omniverse Enterprise to
-              early access to VMware's Project Monterey, fast-track your
-              enterprise projects with free curated labs. TRY NVIDIA LAUNCHPAD
-            </p>
+            <div class="card">
+              <div class="card-img">
+                <img src="./laptop gpu.PNG" />
+              </div>
+              <div class="details">
+                <h3>Introducing New NVIDIA RTX Laptop GPUs</h3>
+                <p>
+                  New NVIDIA RTX GPUs tackle demanding professional workflows
+                  and hybrid work, enabling creation from anywhere.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="./hyperscale.PNG" />
+              </div>
+              <div class="details">
+                <h3>
+                  NVIDIA AI Advances Speech Recommender Systems, and Hyperscale
+                  Inference
+                </h3>
+                <p>
+                  Global leader Amazon, Microsoft, NTT Communications, and Snap
+                  are adopting the NVIDIA AI platform to build industry-leading
+                  applications.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="./orin leaps.PNG" />
+              </div>
+              <div class="details">
+                <h3>MLPerf: NVIDIA Orin Leaps Ahead in Edge AI</h3>
+                <p>
+                  Speeding the path to building state-of-the-artt AI, NVIDIA
+                  NGC's new One Click Deploy featur simplifies the complex steps
+                  of running a Jupyter Notebook on Google Cloud Vertex AI to a
+                  single click.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="slider">
-          <img src="./nvidia4.PNG" class="i4" alt="img4" />
-          <div class="text">
-            <h1>ANNOUNCING NVIDIA GRACE CPU</h1>
-            <p>
-              Powering 2X the performance and energy efficiency of server chips.
-            </p>
-          </div>
-        </div>
-        <div class="slider">
-          <img src="./nvidia5.PNG" class="i5" alt="img5" />
-          <div class="text">
-            <h1>GET STARTED WITH SPEECH AI</h1>
-            <p>Try NVIDIA Riva for free on NVIDIA LaunchPad.</p>
-          </div>
-        </div>
-        <div class="dots">
-          <label for="img1"></label>
-          <label for="img2"></label>
-          <label for="img3"></label>
-          <label for="img4"></label>
-          <label for="img5"></label>
         </div>
       </div>
     </body>
+    <footer>
+      <div class="footer1-container">
+        <div class="footer-1">
+          <h2>Corporate Information</h2>
+
+          <a href="#">About NVIDIA</a>
+          <a href="#">Corporate Overview</a>
+          <a href="#">Technologies</a>
+          <a href="#">NVIDIA Research</a>
+          <a href="#">Investors</a>
+          <a href="#">Social Responsibility</a>
+          <a href="#">NVIDIA Foundation</a>
+        </div>
+        <div class="footer-1">
+          <h2>Get Involved</h2>
+
+          <a href="#">Forums</a>
+          <a href="#">Careers</a>
+          <a href="#">Developer Home</a>
+          <a href="#">Join the Developer Program</a>
+          <a href="#">NVIDIA Partner Network</a>
+          <a href="#">NVIDIA Inception</a>
+          <a href="#">Resources for Venture Capitalists</a>
+          <a href="#">Technical Training</a>
+          <a href="#">Training for IT Professionals</a>
+          <a href="#">Professional Services for Data Science</a>
+        </div>
+        <div class="footer-1">
+          <h2>News & Events</h2>
+
+          <a href="#">Newsroom</a>
+          <a href="#">NVIDIA Blog</a>
+          <a href="#">Webinars</a>
+          <a href="#">Stay Informed</a>
+          <a href="#">Events Calendar</a>
+          <a href="#">NVIDIA GTC</a>
+          <a href="#">NVIDIA On-Demand</a>
+        </div>
+      </div>
+      <div class="footer2-container">
+        <div class="footer-2">
+          <ion-icon name="mail-outline" style="color: #76b900"></ion-icon>
+          <h2>SIGN UP FOR NVIDIA NEWS</h2>
+          <button>subscribe</button>
+        </div>
+        <div class="footer-2">
+          <div class="logos">
+            <p>Follow NVIDIA</p>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="containg-footer3">
+      <div class="footer3-img">
+        <img
+          src="https://www.logo.wine/a/logo/Nvidia/Nvidia-Horizontal-Black-Logo.wine.svg"
+          alt="black-logo"
+        />
+      </div>
+      <div class="footer3-container">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Manage My Privacy</a>
+        <a href="#">Legal</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Product</a>
+        <a href="#">Security</a>
+        <a href="#">Contact</a>
+        <p>USA-United States</p>
+      </div>
+      <div class="last-text"><p>Copyright © 2022 NVIDIA Corporation</p></div></div>
+    </footer>
   </body>
 </html>
